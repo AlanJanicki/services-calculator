@@ -61,7 +61,7 @@ App is dockerized. <br /><br/>
 <strong>Development</strong>
 
 1. Clone or download repository
-2. Run `cd client && npm install && npm run prepare && npm start`
+2. Run `cd client && npm install && npm start`
 
 -- or using docker --
 
