@@ -1,0 +1,41 @@
+{
+  "currency": "zł",
+  "years": [2023, 2024, 2025],
+  "services": [
+    {
+      "id": 1,
+      "name": "Internet",
+      "prices": [39, 49, 59]
+    },
+    {
+      "id": 2,
+      "name": "Telewizja",
+      "prices": [49, 49, 59]
+    },
+    {
+      "id": 3,
+      "name": "Abonament telefoniczny",
+      "fixedPrice": 29
+    },
+    {
+      "id": 4,
+      "name": "Dekoder 4K",
+      "fixedPrice": 29,
+      "complementaryServicesIds": [2]
+    }
+  ],
+  "discountBundles": [
+    {
+      "id": 1,
+      "name": "Internet + telewizja + dekoder",
+      "prices": [79, 89, 99],
+      "servicesIds": [1, 2, 4]
+    },
+    {
+      "id": 2,
+      "name": "Internet + abonament telefoniczny",
+      "fixedPrice": 64,
+      "servicesIds": [1, 3]
+    }
+  ]
+}

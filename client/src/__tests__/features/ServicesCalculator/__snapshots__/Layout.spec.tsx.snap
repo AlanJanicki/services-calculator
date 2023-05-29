@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ServiceCalculator/> - layout displays spinner during api call 1`] = `
+<DocumentFragment>
+  .c1 {
+  display: block;
+  width: 50px;
+  aspect-ratio: 1;
+  border: 3px solid #0f7bff;
+  border-radius: 50%;
+  border-top-color: #fff;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+}
+
+.c0 {
+  padding-top: 3rem;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  text-align: center;
+}
+
+<div
+    class="c0"
+  >
+    <p
+      role="status"
+    >
+      <span
+        class="c1"
+        width="50"
+      />
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<ServiceCalculator/> - layout hides spinner on api call finish 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+}
+
+.c2 {
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.c3 {
+  padding: 1rem;
+  display: grid;
+}
+
+.c6 {
+  height: 2rem;
+  margin-top: 0.3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 input,
+.c6 label {
+  cursor: pointer;
+}
+
+.c6 label {
+  padding-left: 1rem;
+}
+
+.c4 {
+  display: grid;
+}
+
+.c4 label {
+  margin: 0 auto 1rem auto;
+}
+
+.c4 select {
+  cursor: pointer;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+}
+
+.c0 {
+  margin-top: 2rem;
+}
+
+.c5 {
+  margin: 1rem 0;
+}
+
+.c7 {
+  margin-bottom: 1rem;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (min-width:576px) {
+  .c2 {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width:576px) {
+  .c2 h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c6 {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c6 input {
+    height: 1.2rem;
+    aspect-ratio: 1;
+  }
+}
+
+@media (min-width:992px) {
+  .c6 label {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 label,
+  .c4 select {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c5 {
+    margin-top: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c7 {
+    margin: 1.2rem 0 0 0;
+    font-size: 1.5rem;
+  }
+}
+
+<form
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1>
+          Kalkulator usług
+        </h1>
+      </div>
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <label
+            for="years"
+          >
+            Wybierz rok
+          </label>
+          <select
+            id="years"
+          >
+            <option
+              value="2023"
+            >
+              2023
+            </option>
+            <option
+              value="2024"
+            >
+              2024
+            </option>
+            <option
+              value="2025"
+            >
+              2025
+            </option>
+          </select>
+        </div>
+        <div
+          class="c5"
+        >
+          <div
+            class="c6"
+          >
+            <input
+              id="Internet"
+              type="checkbox"
+            />
+            <label
+              for="Internet"
+            >
+              Internet
+            </label>
+          </div>
+          <div
+            class="c6"
+          >
+            <input
+              id="Telewizja"
+              type="checkbox"
+            />
+            <label
+              for="Telewizja"
+            >
+              Telewizja
+            </label>
+          </div>
+          <div
+            class="c6"
+          >
+            <input
+              id="Abonament telefoniczny"
+              type="checkbox"
+            />
+            <label
+              for="Abonament telefoniczny"
+            >
+              Abonament telefoniczny
+            </label>
+          </div>
+          <div
+            class="c6"
+          >
+            <input
+              id="Dekoder 4K"
+              type="checkbox"
+            />
+            <label
+              for="Dekoder 4K"
+            >
+              Dekoder 4K
+            </label>
+          </div>
+        </div>
+        <p
+          class="c7"
+          data-testid="totalRegularPrice"
+        >
+          Cena: 0 zł
+        </p>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`<ServiceCalculator/> - server error displays error message on priceList fetch failure 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding-top: 3rem;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.c1 {
+  color: #dd3546;
+}
+
+.c2 {
+  margin: 2rem auto 0 auto;
+  padding: 0.5rem;
+  width: 50%;
+  background-color: #0f7bff;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media (min-width:992px) {
+  .c1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 {
+    font-size: 1.2rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div>
+      <span
+        class="c1"
+      >
+        Wystąpił błąd podczas pobierania danych potrzebnych do kalkulacji
+      </span>
+      <button
+        class="c2"
+      >
+        Spróbuj ponownie
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<ServiceCalculator/> - server error displays spinner during refetch api call 1`] = `
+<DocumentFragment>
+  .c1 {
+  display: block;
+  width: 50px;
+  aspect-ratio: 1;
+  border: 3px solid #0f7bff;
+  border-radius: 50%;
+  border-top-color: #fff;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+}
+
+.c0 {
+  padding-top: 3rem;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <p
+      role="status"
+    >
+      <span
+        class="c1"
+        width="50"
+      />
+    </p>
+  </div>
+</DocumentFragment>
+`;

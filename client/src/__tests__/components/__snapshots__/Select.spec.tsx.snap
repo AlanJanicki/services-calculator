@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select/> matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: grid;
+}
+
+.c0 label {
+  margin: 0 auto 1rem auto;
+}
+
+.c0 select {
+  cursor: pointer;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+}
+
+@media (min-width:992px) {
+  .c0 label,
+  .c0 select {
+    font-size: 1.2rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <label
+      for="years"
+    >
+      Wybierz rok
+    </label>
+    <select
+      id="years"
+    >
+      <option
+        value="2023"
+      >
+        2023
+      </option>
+      <option
+        value="2024"
+      >
+        2024
+      </option>
+      <option
+        value="2025"
+      >
+        2025
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
