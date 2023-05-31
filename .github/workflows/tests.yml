@@ -1,4 +1,4 @@
-name: Chromatic Deployment
+name: Tests
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  build-chromatic-storybook:
+  generate-coverage-badges:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -17,9 +17,10 @@ jobs:
       - name: Install dependencies
         run: npm install ci
         working-directory: ./client
-      - name: Build storybook
-        uses: chromaui/action@v1
+      - name: Run tests
+        run: npm run test:ci
+        working-directory: ./client
+      - name: Generating coverage badges
+        uses: jpb06/jest-badges-action@latest
         with:
-          workingDir: client
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          coverage-summary-path: ./client/coverage/coverage-summary.json

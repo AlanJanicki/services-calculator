@@ -2,9 +2,7 @@
 
 ## Test coverage
 
-| Statements                                                                                 | Branches                                                                               | Functions                                                                                | Lines                                                                            |
-| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| ![Statements](https://img.shields.io/badge/statements-96.75%25-brightgreen.svg?style=flat) | ![Branches](https://img.shields.io/badge/branches-93.47%25-brightgreen.svg?style=flat) | ![Functions](https://img.shields.io/badge/functions-98.07%25-brightgreen.svg?style=flat) | ![Lines](https://img.shields.io/badge/lines-96.29%25-brightgreen.svg?style=flat) |
+![Branches](./badges/coverage-branches.svg)![Functions](./badges/coverage-functions.svg)![Lines](./badges/coverage-lines.svg)![Statements](./badges/coverage-statements.svg)![Jest coverage](./badges/coverage-jest%20coverage.svg)
 
 <details>
   <summary>Task description</summary>
