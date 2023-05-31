@@ -1,4 +1,0 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-cd client && npm run test:badges && npx istanbul-badges-readme --readmeDir=../ && git add '../README.md'

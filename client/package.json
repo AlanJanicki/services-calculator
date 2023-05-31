@@ -21,7 +21,7 @@
     "storybook": "storybook dev -p 6006",
     "test-storybook": "test-storybook",
     "build-storybook": "storybook build",
-    "test:badges": "CI=true npm run test",
+    "test:pre-push": "CI=true npm run test",
     "prepare": "cd .. && husky install"
   },
   "browserslist": {
