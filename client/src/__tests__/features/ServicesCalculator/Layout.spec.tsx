@@ -11,8 +11,8 @@ import { matchSnapshot, renderWithStore } from '../../common';
 describe('<ServiceCalculator/> - layout', () => {
   it('displays spinner during api call', async () => {
     const { asFragment } = renderWithStore(<ServicesCalculator />);
-    await screen.findByRole('status');
     matchSnapshot(asFragment());
+    await screen.findByRole('status');
   });
 
   it('hides spinner on api call finish', async () => {
